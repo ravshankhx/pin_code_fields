@@ -916,11 +916,11 @@ class _PinCodeTextFieldState extends State<PinCodeTextField> with TickerProvider
             )),
       );
 
-      if (i == 2) {
-        result.add(SizedBox(
-          width: 0,
-        ));
-      }
+      // if (i == 2) {
+      //   result.add(SizedBox(
+      //     width: 0,
+      //   ));
+      // }
       if (widget.separatorBuilder != null && i != widget.length - 1) {
         result.add(widget.separatorBuilder!(context, i));
       }
